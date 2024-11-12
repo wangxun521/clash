@@ -4,6 +4,7 @@
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,fc2id.com
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
