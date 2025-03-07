@@ -1,0 +1,11 @@
+ 
+
+ - DOMAIN-SUFFIX,temu.com  
+  - DOMAIN-SUFFIX,temucdn.com  
+  - DOMAIN-SUFFIX,temuapps.com  
+  - DOMAIN-KEYWORD,temu  
+  - DOMAIN-KEYWORD,temucdn  
+  - PROCESS-NAME,Temu  
+  - IP-CIDR,47.246.0.0/16,no-resolve  
+  - IP-CIDR,8.45.50.0/24,no-resolve  
+  - IP-CIDR,129.226.0.0/16,no-resolve  
