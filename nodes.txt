@@ -1,0 +1,1 @@
+vless://ca66381a-0125-4202-9eff-4a7f69c62bc3@216.36.112.253:40294?encryption=none&security=reality&pqv=&type=tcp&sni=dl.google.com&fp=chrome&pbk=soga8Xk1JVGBi-Ry0pibqxi3s-AzNJEmP0swAKpIKRk&sid=6ba85179e30d4fc2&flow=xtls-rprx-vision#美国-VLESS-Reality
