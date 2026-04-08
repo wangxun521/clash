@@ -1,5 +1,11 @@
+mixed-port: 7890
+mode: rule
+allow-lan: true
+log-level: info
+ipv6: false
+
 proxies:
-  - name: 美国-216.36.112.253-VLESS
+  - name: US-VLESS-Reality
     type: vless
     server: 216.36.112.253
     port: 40294
@@ -8,17 +14,17 @@ proxies:
     tls: true
     udp: true
     servername: dl.google.com
+    client-fingerprint: chrome
+    flow: xtls-rprx-vision
     reality-opts:
       public-key: soga8Xk1JVGBi-Ry0pibqxi3s-AzNJEmP0swAKpIKRk
       short-id: 6ba85179e30d4fc2
-    client-fingerprint: chrome
-    flow: xtls-rprx-vision
 
 proxy-groups:
   - name: 节点选择
     type: select
     proxies:
-      - 美国-216.36.112.253-VLESS
+      - US-VLESS-Reality
       - DIRECT
 
 rules:
