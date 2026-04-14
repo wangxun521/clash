@@ -5,6 +5,7 @@ DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,Claude
 DOMAIN-KEYWORD,grok
 DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,openrouter
 # 域名后缀匹配
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,chatgpt.com
@@ -29,3 +30,4 @@ DOMAIN-SUFFIX,claude.ai.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,openrouter.ai
