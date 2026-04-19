@@ -4,6 +4,8 @@
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ipify.org
+DOMAIN-SUFFIX,colocrossing.com
+DOMAIN-SUFFIX,ipleak.net
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,1e100
@@ -12,6 +14,7 @@ DOMAIN-KEYWORD,avmoo
 DOMAIN-KEYWORD,avmemo
 DOMAIN-KEYWORD,9p47p
 DOMAIN-KEYWORD,66img
+DOMAIN-KEYWORD,colocrossing
 
 # IP段匹配
 IP-CIDR,142.171.133.131/32,no-resolve
