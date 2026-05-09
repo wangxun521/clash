@@ -1,0 +1,13 @@
+# 内容：Tailscale 控制平面、中继服务器及 MagicDNS
+# 域名关键字匹配
+DOMAIN-KEYWORD,tailscale
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,tailscale.com
+DOMAIN-SUFFIX,tailscale.io
+DOMAIN-SUFFIX,tailscale.net
+DOMAIN-SUFFIX,ts.net
+DOMAIN-SUFFIX,derp.tailscale.com
+
+# Tailscale 专用私有 IP 段 (必须直连，否则会导致内网穿透失败)
+IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
