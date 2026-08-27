@@ -1,0 +1,25 @@
+# MSFS 2024 官方与认证服务
+DOMAIN-SUFFIX,flightsimulator.com
+DOMAIN-SUFFIX,flightsimulator.azureedge.net
+DOMAIN-KEYWORD,flightsimulator
+
+# 微软必应地图与卫星地景串流 (核心地景流式传输)
+DOMAIN-SUFFIX,virtualearth.net
+DOMAIN-SUFFIX,tile.virtualearth.net
+DOMAIN-KEYWORD,virtualearth
+
+# Xbox Live 联机与多人生态
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,playfabapi.com
+DOMAIN-KEYWORD,playfab
+
+# 微软 Azure 资产下载与云端流媒体
+DOMAIN-SUFFIX,blob.core.windows.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,trafficmanager.net
+DOMAIN-SUFFIX,mp.microsoft.com
+DOMAIN-SUFFIX,delivery.mp.microsoft.com
+
+# 实时天气与航空流量数据
+DOMAIN-SUFFIX,meteoblue.com
+DOMAIN-SUFFIX,flightradar24.com
