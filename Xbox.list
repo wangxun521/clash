@@ -1,0 +1,8 @@
+# 从模拟飞行规则拆出的 Xbox Live / PlayFab 共享游戏服务
+# 默认保留原模拟飞行组的自建节点路径，可独立切换 DIRECT 或其他节点
+DOMAIN-SUFFIX,xboxlive.com
+DOMAIN-SUFFIX,playfabapi.com
+DOMAIN-KEYWORD,playfab
+
+# Windows/Store 通用内容下载优先命中 MicrosoftDownload.list
+# 未将整个 Azure 或 Microsoft 域名归入 Xbox
