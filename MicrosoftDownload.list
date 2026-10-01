@@ -1,0 +1,23 @@
+# Microsoft Store / Windows Update / Delivery Optimization
+# 默认 DIRECT；单独策略组保留代理回退，不跟随游戏或通用 Microsoft 组
+# https://learn.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization-faq
+# https://learn.microsoft.com/en-us/intune/fundamentals/endpoints#microsoft-store
+
+# Delivery Optimization 云端调度与更新内容下载
+DOMAIN-SUFFIX,do.dsp.mp.microsoft.com
+DOMAIN,tsfe.trafficshaping.dsp.mp.microsoft.com
+DOMAIN-SUFFIX,delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+
+# Store 目录、获取/授权 API 与微软托管的 Win32 回退下载缓存
+DOMAIN,displaycatalog.mp.microsoft.com
+DOMAIN,purchase.md.mp.microsoft.com
+DOMAIN,licensing.mp.microsoft.com
+DOMAIN,licensing.md.mp.microsoft.com
+DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
+
+# 不把整个 mp.microsoft.com 或 Azure 云平台视为下载服务
+# 第三方 Win32 发布者下载地址按各自域名规则处理
+# 不固定 CDN/Microsoft Connected Cache IP，它们会动态变化
