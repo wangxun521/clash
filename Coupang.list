@@ -1,0 +1,26 @@
+# Coupang: shopping, seller services, CDN and related branded services
+# Domain sources: https://www.coupang.com/ , https://www.coupangplay.com/
+# https://www.coupangpay.com/ , https://www.aboutcoupang.com/
+# Suffix rules include all subdomains, including login, cart, wing and APIs.
+DOMAIN-SUFFIX,coupang.com
+DOMAIN-SUFFIX,coupangcdn.com
+DOMAIN-SUFFIX,coupangplay.com
+DOMAIN-SUFFIX,coupangcorp.com
+DOMAIN-SUFFIX,coupangpay.com
+DOMAIN-SUFFIX,aboutcoupang.com
+
+# Branded-domain fallback for additional Coupang service domains.
+DOMAIN-KEYWORD,coupang
+
+# AS152229 (Coupang Inc), observed by RIPE RIS at 2026-10-19 08:00 UTC.
+# Source: https://stat.ripe.net/data/ris-prefixes/data.json?resource=AS152229&list_prefixes=true
+# These are ASN-originated prefixes, not all website/App/CDN addresses.
+# Shared AWS/Akamai/CloudFront network ranges are deliberately not included.
+IP-CIDR,115.92.28.0/24,no-resolve
+IP-CIDR,118.129.73.0/24,no-resolve
+IP-CIDR,118.129.84.0/24,no-resolve
+IP-CIDR,139.150.233.0/24,no-resolve
+IP-CIDR,139.150.234.0/24,no-resolve
+IP-CIDR,211.56.101.0/24,no-resolve
+IP-CIDR,211.56.109.0/24,no-resolve
+IP-CIDR,211.181.187.0/24,no-resolve
