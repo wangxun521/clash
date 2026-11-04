@@ -6,6 +6,7 @@ DOMAIN-KEYWORD,Claude
 DOMAIN-KEYWORD,grok
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,openrouter
+DOMAIN-KEYWORD,muse
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,perplexity.ai
@@ -31,3 +32,4 @@ DOMAIN-SUFFIX,claude.ai.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,muse.ai
