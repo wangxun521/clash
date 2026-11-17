@@ -7,6 +7,7 @@ DOMAIN-KEYWORD,grok
 DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,openrouter
 DOMAIN-KEYWORD,muse
+DOMAIN-KEYWORD,meta
 
 # 域名后缀匹配
 DOMAIN-SUFFIX,perplexity.ai
@@ -33,3 +34,4 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,muse.ai
+DOMAIN-SUFFIX,meta.com
