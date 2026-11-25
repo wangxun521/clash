@@ -1,0 +1,18 @@
+# Google Drive 网页版与桌面版 (DriveFS) 专属分流规则
+# 需放在通用 Google 规则之前，避免云盘大流量被通用 Google 规则截走
+
+# 网页版入口与文件内容域名
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.usercontent.google.com
+
+# 桌面版 (GoogleDriveFS) 同步、通知与上传/下载核心 API
+DOMAIN,www.googleapis.com
+DOMAIN,content.googleapis.com
+DOMAIN,drivefrontend-pa.googleapis.com
+DOMAIN,drive-pa.googleapis.com
+DOMAIN,signaler-pa.googleapis.com
+DOMAIN,driveactivity.googleapis.com
+
+# 文件下载直链与内容分发（下载流量大头，部分 Google 头像/相册也会共用）
+DOMAIN-SUFFIX,googleusercontent.com
